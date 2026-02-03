@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+nav {
+  background-color: #111;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+/* Form */
+form {
+  background-color: #eeeeee;
+  padding: 15px;
+}
+
+textarea {
+  background-color: #e3f2fd;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+button[type="reset"] {
+  background-color: #f44336;
+}
